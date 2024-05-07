@@ -28,7 +28,7 @@ $books = [
             <?php foreach($movies as $movie){ ?>
                 <div class="col-lg-3"> 
                     <div class="card">
-                        <img src="<?php echo $movie->cover ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo $movie->cover ?>" class="card-img-top" alt="<?php echo $movie->title ?>">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $movie->title ?></h5>
                             <p class="card-text"> <?php echo $movie->language ?> </p>
@@ -47,7 +47,7 @@ $books = [
             <?php foreach($books as $book){ ?>
                 <div class="col-lg-3"> 
                     <div class="card">
-                        <img src="<?php echo $book->cover ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo $book->cover ?>" class="card-img-top" alt="<?php echo $book->title ?>">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $book->title ?></h5>
                             <p class="card-text"> <?php echo $book->author ?> </p>
