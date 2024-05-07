@@ -34,7 +34,7 @@ $books = [
                             <p class="card-text"> <?php echo $movie->language ?> </p>
                             <p class="card-text"> <?php echo $movie->printVote() ?> </p>
                             <p class="card-text"> <?php ?> </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>    
                 </div>
@@ -51,7 +51,7 @@ $books = [
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $book->title ?></h5>
                             <p class="card-text"> <?php echo $book->author ?> </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>    
                 </div>
